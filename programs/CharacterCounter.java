@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 import static java.lang.System.out;
 
-public class NumberCounter {
+public class CharacterCounter {
 
-	public NumberCounter() {
+	public CharacterCounter() {
 		final Scanner scanner = new Scanner(System.in);
 		out.println("Enter a series of numbers without spaces.");
 		out.print("> ");
@@ -16,7 +16,7 @@ public class NumberCounter {
 	}
 
 	public static void main(String[] args) {
-		new NumberCounter();
+		new CharacterCounter();
 	}
 
 }

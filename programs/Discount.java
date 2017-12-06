@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class Discount {
 	
-	private Calculator() {
+	private Discount() {
 		final Scanner scanner = new Scanner(System.in);
 		requestInput("What is the amount?");
 		final double amount = readDoubleSafely(scanner);
@@ -33,7 +33,7 @@ public class Calculator {
 	}
 	
 	public static void main(String[] args) {
-		new Calculator();
+		new Discount();
 	}
 
 }
